@@ -12,4 +12,5 @@ def tabla():
         for j in range(arg_2):
             print("*", end="")
 
-tabla()
+if __name__ == "__main__":
+    tabla()

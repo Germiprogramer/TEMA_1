@@ -8,3 +8,6 @@ def cadena():
         print(True)
     else:
         print(False)
+
+if __name__ == "__main__":
+    cadena()
