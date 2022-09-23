@@ -1,7 +1,11 @@
 lista = []
 def ejercicio3(inicio,salto,limite):   
-    if inicio not in lista:
-        lista.append(inicio)
+    try:
+        if inicio not in lista:
+            lista.append(inicio)
+    except:
+        pass
+    
     
     if inicio < limite:
         lista.append(inicio+salto)

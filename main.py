@@ -1,5 +1,6 @@
 from ejercicios.ejercicio1 import *
 from ejercicios.ejercicio2 import *
+from ejercicios.ejercicio3 import *
 
 if __name__ == "__main__":
     #ejercicio1
@@ -18,7 +19,13 @@ if __name__ == "__main__":
 
     #ejercicio3
 
-    
+    lista=[]
+    ejercicio3(0,1,11)
+    ejercicio3(-10, 1, 1)
+    ejercicio3(0, 21, 2)
+    #ejercicio3(-19, 0, 2)
+    ejercicio3(0, 51, 5)
+
 
 
 
